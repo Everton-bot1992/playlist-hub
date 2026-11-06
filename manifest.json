@@ -1,0 +1,30 @@
+{
+  "name": "Playlist Hub",
+  "short_name": "Playlists",
+  "description": "Suas playlists do Spotify e de outros apps, em um só lugar.",
+  "id": "./index.html",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b0d10",
+  "theme_color": "#1DB954",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Biblioteca",
+      "short_name": "Biblioteca",
+      "url": "./index.html?view=library",
+      "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Importar playlist",
+      "short_name": "Importar",
+      "url": "./index.html?view=import",
+      "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    }
+  ]
+}
